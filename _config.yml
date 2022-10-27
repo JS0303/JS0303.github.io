@@ -18,8 +18,8 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "ko-KR"
 title: "Dreams Come True"
 title_separator: "|"
-subtitle: "do it properly" # site tagline that appears below site title in masthead
-name: "이진석 (JinSeok Lee)"
+subtitle: # site tagline that appears below site title in masthead
+name: "JinSeok Lee"
 description: "Archive"
 url: "https://JS0303.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name: "이진석 (JinSeok Lee)"
+  name: "JinSeok Lee"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Archive"
   location: "Seoul"
