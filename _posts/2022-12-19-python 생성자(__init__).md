@@ -19,7 +19,7 @@ search: true
 ```
 class Person:
 	def __init__(self):
-    	print(self, 'is generated')
+		print(self, 'is generated')
 
  p1 = Person()
  p2 = Person()
@@ -35,9 +35,9 @@ class Person:
 ```
 class Person:
 	def __init__(self):
-    	print(self, 'is generated')
-        self.name = 'Kate'
-        self.age = 10
+		print(self, 'is generated')
+		self.name = 'Kate'
+		self.age = 10
 
  p1 = Person()
  p2 = Person()
@@ -54,9 +54,9 @@ p1이라는 객체의 속성을 정의해주고 접근할 수 있음
 ```
 class Person:
 	def __init__(self):
-    	print(self, 'is generated')
-        self.name = 'Kate'
-        self.age = 10
+		print(self, 'is generated')
+		self.name = 'Kate'
+		self.age = 10
 
  p1 = Person()
  p2 = Person()
@@ -78,9 +78,9 @@ arron 20
 ```
 class Person:
 	def __init__(self, name, age):
-    	print(self, 'is generated')
-        self.name = name
-        self.age = age
+		print(self, 'is generated')
+		self.name = name
+		self.age = age
 
 p1 = Person('Bob', 30)
 p2 = Person('Kate', 20
@@ -101,9 +101,9 @@ Kate 20
 ```
 class Person:
 	def __init__(self, name, age=10):
-    	# print(self, 'is generated')
-        self.name = name
-        self.age = age
+		# print(self, 'is generated')
+		self.name = name
+		self.age = age
 
 p1 = Person('Bob', 30)
 p2 = Person('Kate', 20
