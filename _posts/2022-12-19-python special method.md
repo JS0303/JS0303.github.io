@@ -33,8 +33,8 @@ docs.python.org](https://docs.python.org/3/reference/datamodel.html#object.__add
 # 출력하기
 
 class Point:
-	def __init__(self, x, y):
-    	self.x = x
+    def __init__(self, x, y):
+        self.x = x
         self.y = y
 
     def __add__(self, pt):
